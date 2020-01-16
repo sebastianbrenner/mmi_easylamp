@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style/styles.css" />
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+  <body id="menuScreen" style="border-style: none;">
+    <div id="menuBar">
+      <button id="menuButton" onclick="showMenu()">
+        <img src="./img/Menü.svg" height="100%" />
+      </button>
+    </div>
+    <div id="contentMenu">
+      <div id="headerMenu"><h3>Menü</h3></div>
+      <div id="buttonsMenu">
+        <button onclick='showScreen("fehler")'>
+          <img src="./img/Fehler.svg" height="100%" />
+        </button>
+        <button onclick="showAuslesung()">
+          <img src="./img/Fehlerauslesung.svg" height="100%" />
+        </button>
+        <button onclick="showWerkstatt()">
+          <img src="./img/Werkstatt.svg" height="100%" />
+        </button>
+        <br />
+        <button onclick="showStatistik()">
+          <img src="./img/Statistik.svg" height="100%" />
+        </button>
+        <button onclick="showDatenuebertragung()">
+          <img src="./img/Datenübertragung_Handy.svg" height="100%" />
+        </button>
+        <button onclick="showEinstellungen()">
+          <img src="./img/Einstellungen.svg" height="100%" />
+        </button>
+        <button onclick="showAbout()">
+          <img src="./img/Über_EasyLamp.svg" height="100%" />
+        </button>
+      </div>
+      <div id="footerMenu"></div>
+    </div>
+  </body>
+</html>

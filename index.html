@@ -7,6 +7,10 @@
     <link rel="stylesheet" type="text/css" href="style/styles.css" />
     <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="center" id="device">
@@ -14,13 +18,13 @@
       <div>
         <img id="logo" src="img/logo.gif" height="6%" />
         <div class="button" id="buttonUp">
-          <button class="innerButton">
-            <img src="img/black-arrowhead-pointing-up.svg" />
+          <button class="innerButton" onclick="loadWelcomeScreen()">
+            <img src="img/Exit_Pfeil.svg" width="100%" />
           </button>
         </div>
         <div class="button" id="buttonDown">
-          <button class="innerButton" onclick="loadWelcomeScreen()">
-            <img src="img/black-arrowhead-pointing-up.svg" />
+          <button class="innerButton" onclick="clearScreen()">
+            <img src="img/Start_Pfeil.svg" width="100%" />
           </button>
         </div>
       </div>
