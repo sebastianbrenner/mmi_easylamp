@@ -12,18 +12,28 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body onload='showScreen("menu")'>
     <div class="center" id="device">
-      <div class="center" id="screen"></div>
+      <div id="emptyScreen">
+        <iframe id="emptyScreenFrame" class="screenFrame" src=""></iframe>
+      </div>
+      <div id="menuBar">
+        <button id="menuButton" onclick='showScreen("menu")'>
+          <img src="./img/Menü.svg" height="100%" />
+        </button>
+      </div>
+      <div class="center" id="screen">
+        <iframe id="screenFrame" class="screenFrame" src=""></iframe>
+      </div>
       <div>
         <img id="logo" src="img/logo.gif" height="6%" />
-        <div class="button" id="buttonUp">
+        <div class="screenButton" id="buttonUp">
           <button class="innerButton" onclick="loadWelcomeScreen()">
             <img src="img/Exit_Pfeil.svg" width="100%" />
           </button>
         </div>
-        <div class="button" id="buttonDown">
-          <button class="innerButton" onclick="clearScreen()">
+        <div class="screenButton" id="buttonDown">
+          <button class="innerButton" onclick='showScreen("empty")'>
             <img src="img/Start_Pfeil.svg" width="100%" />
           </button>
         </div>

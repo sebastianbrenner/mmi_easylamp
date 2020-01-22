@@ -5,34 +5,29 @@
     <script src="js/scripts.js" type="text/javascript"></script>
   </head>
   <body id="menuScreen" style="border-style: none;">
-    <div id="menuBar">
-      <button id="menuButton" onclick="showMenu()">
-        <img src="./img/Menü.svg" height="100%" />
-      </button>
-    </div>
     <div id="contentMenu">
       <div id="headerMenu"><h3>Menü</h3></div>
       <div id="buttonsMenu">
-        <button onclick='showScreen("fehler")'>
+        <button onclick='showScreenFrame("fehler")'>
           <img src="./img/Fehler.svg" height="100%" />
         </button>
-        <button onclick="showAuslesung()">
+        <button onclick='showScreenFrame("auslesung")'>
           <img src="./img/Fehlerauslesung.svg" height="100%" />
         </button>
-        <button onclick="showWerkstatt()">
-          <img src="./img/Werkstatt.svg" height="100%" />
+        <button onclick='showScreenFrame("werkstatt")'>
+          <img src="./img/Werkstatt_Farbe.svg" width="100%" />
         </button>
         <br />
-        <button onclick="showStatistik()">
-          <img src="./img/Statistik.svg" height="100%" />
+        <button onclick='showScreenFrame("statistik")'>
+          <img src="./img/Statistik_Farbe.svg" width="100%" />
         </button>
-        <button onclick="showDatenuebertragung()">
+        <button onclick='showScreenFrame("daten")'>
           <img src="./img/Datenübertragung_Handy.svg" height="100%" />
         </button>
-        <button onclick="showEinstellungen()">
+        <button onclick='showScreenFrame("einstellungen")'>
           <img src="./img/Einstellungen.svg" height="100%" />
         </button>
-        <button onclick="showAbout()">
+        <button onclick='showScreenFrame("about")'>
           <img src="./img/Über_EasyLamp.svg" height="100%" />
         </button>
       </div>

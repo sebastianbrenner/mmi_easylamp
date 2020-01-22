@@ -15,12 +15,13 @@ body {
 }
 
 #screen {
-  width: 65vw;
+  width: 55vw;
   height: 85%;
-  background-color: dimgrey;
   margin-bottom: 3vw;
-  border-radius: 2px;
+  margin-left: 5.3vw !important;
   top: 48% !important;
+  background-color: dimgrey;
+  border-radius: 0 2px 2px 0;
   overflow: hidden;
 }
 
@@ -38,7 +39,7 @@ body {
   right: 1.8vw;
 }
 
-.button {
+.screenButton {
   width: 2.5vw;
   height: 2vw;
   bottom: 0.4vw;
@@ -82,7 +83,7 @@ object {
 
 #welcomeLogo {
   position: relative;
-  top: 14vw !important;
+  top: 13vw !important;
 }
 
 .screenFrame {
@@ -101,23 +102,27 @@ object {
 }
 
 #menuBar {
-  width: 15%;
-  height: 100%;
+  width: 16%;
+  height: 85%;
   background-color: #161b4b;
   float: left;
+  margin-bottom: 3vw;
+  margin-left: 22px;
+  margin-top: 1.66vw;
+  border-radius: 3px;
 }
 
 #menuButton {
-  background-color: #227c26;
-  height: 8vw;
-  width: 12vw;
+  background-color: rgba(255, 255, 255, 0);
+  height: 6vw;
+  width: 8vw;
   margin: 0;
   position: relative;
   top: 1.5vw;
-  left: 50%;
-  transform: translate(-50%, 0);
+  left: 1.3vw;
   border: 0;
   border-radius: 15px;
+  padding-left: 0;
 }
 
 hr {
@@ -131,14 +136,12 @@ hr {
 }
 
 #contentMenu {
-  margin-left: 16%;
   height: 100%;
 }
 
 #headerMenu {
   background-color: #e8e8e8;
   height: 25%;
-  margin-left: 10px;
 }
 
 #headerMenu h3 {
@@ -153,23 +156,94 @@ hr {
 
 #buttonsMenu {
   margin-top: 10px;
+  padding-top: 1vw;
   background-color: #e8e8e8;
-  height: 45%;
-  margin-left: 10px;
+  height: 42%;
 }
 
 #buttonsmenu button {
-  height: 6.5vw;
-  width: 9.5vw;
+  height: 6.6vw;
+  width: 9.6vw;
   border-style: none;
   border-radius: 5px;
   background-color: #227c26;
-  margin: 1vw 8.5vw 1vw 2vw;
+  margin: 1vw 8.9vw 1vw 2vw;
 }
 
 #footerMenu {
   margin-top: 10px;
   background-color: #e8e8e8;
   height: 25%;
-  margin-left: 10px;
+}
+
+#emptyScreen {
+  background-color: dimgrey;
+  position: absolute;
+  width: 65.25vw;
+  height: 85%;
+  margin-bottom: 3vw;
+  margin-left: 22px;
+  top: 1.66vw;
+  border-radius: 2px;
+  z-index: 99;
+  overflow: hidden;
+}
+
+#main {
+  margin-top: 10px;
+  padding-top: 1vw;
+  background-color: #e8e8e8;
+  height: 42%;
+}
+
+.customButton {
+  height: 5vw;
+  min-width: 12vw;
+  width: fit-content;
+  background-color: white;
+  border-style: none;
+  border-radius: 1vw;
+  font-size: 18px;
+  padding-left: 6px;
+  text-align: center;
+  line-height: 5vw;
+  margin: 1vw 0 0 2vw;
+}
+
+.customButton button {
+  float: right;
+  margin-left: 4px;
+  height: 100%;
+  width: 5vw;
+  border-radius: 0 1vw 1vw 0;
+  border-style: none;
+  background-color: #227c26;
+  color: #ffe400;
+  font-size: 2vw;
+  font-family: "Nunito", sans-serif;
+  padding-right: 5px;
+}
+
+.customButton p {
+  margin: 0;
+  display: inline;
+  font-size: 3vw;
+  color: #464545;
+  padding: 1vw;
+}
+
+.customButton img {
+  transform: translate(0, 18%);
+  margin-left: 0.5vw;
+}
+
+#headerMenu img {
+  float: left;
+  position: relative;
+  padding-right: 2vw;
+}
+
+.imgHeader {
+  margin-left: 2vw;
+  transform: translate(0, 50%);
 }
