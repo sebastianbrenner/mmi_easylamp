@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="73" viewBox="0 0 102 73">
+  <defs>
+    <filter id="Rechteck_921" x="0" y="0" width="102" height="73" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#464545"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Gruppe_2264" data-name="Gruppe 2264" transform="translate(3960 -14114)">
+    <g id="Gruppe_2263" data-name="Gruppe 2263">
+      <g transform="matrix(1, 0, 0, 1, -3960, 14114)" filter="url(#Rechteck_921)">
+        <rect id="Rechteck_921-2" data-name="Rechteck 921" width="84" height="55" rx="8" transform="translate(9 6)" fill="#227c26"/>
+      </g>
+      <path id="Pfad_3615" data-name="Pfad 3615" d="M400.612,630.3l-23.422-15.61v10.477H359.052v-.094H348.693v28.7h10.359V635.527h18.184v10.359Z" transform="translate(-4283.693 13513.309)" fill="#ffe400" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
