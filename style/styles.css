@@ -175,7 +175,7 @@ hr {
   border-style: none;
   border-radius: 5px;
   background-color: #227c26;
-  margin: 1vw 8.9vw 1vw 2vw;
+  margin: 1vw 12vw 1vw 2vw;
 }
 
 #footerMenu {
@@ -187,7 +187,7 @@ hr {
 #emptyScreen {
   background-color: dimgrey;
   position: absolute;
-  width: 65.25vw;
+  width: 66.25vw;
   height: 85%;
   margin-bottom: 3vw;
   margin-left: 22px;
@@ -208,7 +208,7 @@ hr {
 #mainLarge {
   margin-top: 10px;
   background-color: #e8e8e8;
-  height: 71%;
+  height: 72.1%;
   color: #464545;
 }
 
@@ -311,7 +311,7 @@ hr {
 #empfehlung {
   float: right;
   margin-right: 1vw;
-  margin-top: 1vw;
+  margin-top: 0;
 }
 
 #empfehlung button {
@@ -345,4 +345,57 @@ hr {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+#mapSmall {
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+#suchenOk {
+  transform: translate(0, -10%) !important;
+}
+
+#buttonOk {
+  float: right;
+  margin: 1.6vw 1.6vw auto 0;
+  height: 70%;
+  width: 8vw;
+  border-radius: 1vw;
+  border-style: none;
+  background-color: #227c26;
+  color: #ffe400;
+  font-size: 2.9vw;
+  font-family: "Nunito", sans-serif;
+  padding-right: 5px;
+}
+
+.ergebnisButton {
+  height: 6.6vw;
+  width: 9vw;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 1vw 2vw 0 0;
+  float: left;
+}
+
+#buttonUpdate {
+  position: absolute;
+  right: 2vw;
+  height: 5vw;
+  width: 22vw;
+  border-radius: 1vw;
+  border-style: none;
+  background-color: #227c26;
+  color: #ffe400;
+  font-size: 2.9vw;
+  font-family: "Nunito", sans-serif;
+}
+
+#buttonUpdate h5 {
+  margin: 0;
 }

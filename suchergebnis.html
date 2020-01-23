@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style/styles.css" />
+  </head>
+  <body id="menuScreen" style="border-style: none;">
+    <div id="contentMenu">
+      <div id="headerMenu">
+        <h3>
+          A.T.U Reutlingen
+        </h3>
+      </div>
+      <div id="mainLarge">
+        <iframe
+          id="mapSmall"
+          frameborder="0"
+          src="https://www.google.com/maps/embed/v1/directions?origin=48.483244%2C%209.188413&destination=place_id:ChIJDyMlAA3ymUcRRE28cmKylC0&key=AIzaSyCCGx7iveK21dme8OuLgX9Je7TUDDCw3_A&zoom=13"
+        ></iframe>
+        <h2 style="margin: 1vw 0 0 2vw; float: left;">
+          Stuttgarter Str. 29<br />
+          72762 Reutlingen<br />
+          <br />
+          Geöffnet bis 19:00<br />
+          +49 7121 493932
+        </h2>
+        <br />
+        <div style="position: absolute; bottom: 0; margin: 0 0 3.5vw 2vw;">
+          <button
+            class="ergebnisButton"
+            onclick='showScreenFrame("fehlermeldung")'
+          >
+            <img src="./img/Telefon.svg" height="100%" />
+          </button>
+          <button
+            class="ergebnisButton"
+            onclick='showScreenFrame("fehlermeldung")'
+          >
+            <img src="./img/Telefon.svg" height="100%" />
+          </button>
+          <button
+            class="ergebnisButton"
+            onclick='showScreenFrame("fehlermeldung")'
+          >
+            <img src="./img/Telefon.svg" height="100%" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

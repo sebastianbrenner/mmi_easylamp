@@ -6,11 +6,16 @@
   </head>
   <body id="menuScreen" style="border-style: none;">
     <div id="contentMenu">
-      <div id="headerMenu"><h3>Werkstatt in der Nähe</h3></div>
+      <div id="headerMenu">
+        <h3 style="float: left;">Werkstatt in der Nähe</h3>
+        <button id="buttonOk" onclick='showScreenFrame("suchergebnis")'>
+          OK
+        </button>
+      </div>
       <div id="mainLarge">
         <iframe
           id="map"
-          src="https://www.google.com/maps/embed/v1/search?q=Werkstatt Reutlingen&amp;key=AIzaSyCCGx7iveK21dme8OuLgX9Je7TUDDCw3_A"
+          src="https://www.google.com/maps/embed/v1/search?q=werkstatt%20in%20der%20N%C3%A4he%20von%20Reutlingen%2C%20Deutschland&language=de&key=AIzaSyCCGx7iveK21dme8OuLgX9Je7TUDDCw3_A&zoom=12"
           frameborder="0"
           scrolling="no"
         ></iframe>
