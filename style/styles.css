@@ -35,16 +35,16 @@ header {
 
 #logo {
   bottom: 0.5vw;
-  left: 2.5vw;
+  left: 2.1vw;
   position: absolute;
 }
 
 #buttonUp {
-  right: 4.7vw;
+  right: 4.2vw;
 }
 
 #buttonDown {
-  right: 1.8vw;
+  right: 1.3vw;
 }
 
 .screenButton {
@@ -337,21 +337,35 @@ hr {
 #stop {
   float: right;
   margin-right: 7vw;
-  margin-top: 1.5vw;
+  margin-top: 1.6vw;
+}
+
+.buttonZurueck {
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+  float: right;
+  margin-top: 2.4vw;
 }
 
 .buttonWeiter {
   background-color: rgba(255, 255, 255, 0);
   border-style: none;
   float: right;
-  margin-top: 1.7vw;
+  margin-top: 2.4vw;
 }
 
-.buttonZurueck {
+.buttonSucheZurueck {
   background-color: rgba(255, 255, 255, 0);
   border-style: none;
-  float: left;
-  margin-top: 1.7vw;
+  float: right;
+  top: 0.5vw;
+  right: 1.5vw;
+  position: absolute;
+  width: 14vw;
+}
+
+.buttonSucheZurueck img {
+  transform: translate(0, -18%) !important;
 }
 
 #map {
@@ -412,4 +426,18 @@ hr {
 
 #buttonUpdate h5 {
   margin: 0;
+}
+
+.stern {
+  transform: translate(0, 0) !important;
+  margin: 0 !important;
+}
+
+.favoriten {
+  height: 6.6vw;
+  width: 9.6vw;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+  margin: 0.5vw 2vw 1vw 0;
 }
