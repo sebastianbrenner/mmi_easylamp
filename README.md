@@ -1,6 +1,6 @@
 # mmi_easylamp
-task: create a prototyp for the product "EasyLamp"
-contributors: Sebastian Brenner
+task: create a prototyp for the product "EasyLamp" <br />
+contributors: Sebastian Brenner <br />
 
 https://sebastianbrenner.github.io/mmi_easylamp/
 
